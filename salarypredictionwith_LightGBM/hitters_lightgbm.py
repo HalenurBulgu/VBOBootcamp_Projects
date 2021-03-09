@@ -88,10 +88,6 @@ from helpers.data_prep import check_outlier
 for col in num_cols:
     print(col, check_outlier(df, col))
 
-#outlier yok.
-
-
-#OUTLIER THRESHOLD
 from helpers.data_prep import replace_with_thresholds
 
 for col in num_cols:
